@@ -36,7 +36,7 @@
     margin: auto;
         }
 
-    a {
+    a.like {
         color: red;
         font-size: 10px; 
         font-family: 'Roboto', 'Lato', sans-serif;}
