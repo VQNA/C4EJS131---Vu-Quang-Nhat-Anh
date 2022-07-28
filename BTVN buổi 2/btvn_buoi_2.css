@@ -1,0 +1,37 @@
+    .ex1 {
+        font-size: 37.5px; 
+        font-weight: bold; 
+        font-family: 'Roboto', 'Lato', sans-serif;
+    
+    }
+
+    .ex2 {
+        font-size: 18.75px; 
+        font-family: 'Roboto', 'Lato', sans-serif;
+    
+    }
+
+    .ex3 {
+        font-size: 1.17em;
+        font-weight: bold;
+        font-family: 'Roboto', 'Lato', sans-serif;
+    }
+
+    .ex4 {
+        font-size: 18.75px; 
+        text-align:center;
+        font-family: 'Roboto', 'Lato', sans-serif;
+    
+    }
+    
+
+    .Div1 {
+        text-align: center;
+    }
+
+    .Div2 {    
+    width: 50%;
+    border: 15px;
+    padding: 10px;
+    margin: auto;
+        }
