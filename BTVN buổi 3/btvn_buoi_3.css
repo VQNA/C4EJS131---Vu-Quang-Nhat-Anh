@@ -1,0 +1,52 @@
+.head1 {
+    text-align: center; 
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 25px; 
+    color:white;
+}
+.head2 {
+    text-align: center; 
+    font-weight: bold;
+    font-size: 38px;
+    color: green;
+
+}
+.head3 {
+    text-align: center; 
+    font-weight: bold;
+    font-size: 38px;
+    color: black;
+
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Roboto', 'Lato', sans-serif;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: beige;
+  color: black;
+}
+
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
