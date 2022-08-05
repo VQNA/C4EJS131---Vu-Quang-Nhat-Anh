@@ -1,0 +1,105 @@
+*,
+html {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top_page {
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    padding-bottom: 70px;
+    padding-left: 500px;
+    padding-top:40px;
+    max-width: auto;
+    margin-left: auto;
+    background-color: rebeccapurple;
+
+}
+
+h2 {
+    padding-left: 500px;
+    padding-top: 30px;
+}
+
+.ex1 {
+    padding-bottom: 15px;
+    font-size: 60px;
+}
+
+.ex2 {
+    background-color: white;
+    padding: 20px;
+    margin-left: 500px;
+    max-width: 1400px;
+    border: 2px outset blanchedalmond;
+    text-align: justify;
+    border-radius: 15px;
+    margin-bottom: 2px;
+    box-shadow: 3px 7px gainsboro;
+
+}
+
+.ex3 {
+    margin-bottom: 25px;
+    font-size: 30px;
+    padding-left: 500px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rebeccapurple;
+    padding-top:20px;
+    padding-bottom: 10px;
+
+
+}
+
+.ex4 {
+    font-size: 30px;
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    line-height: 40px;
+
+}
+
+.button {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: block;
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    border: none;
+
+
+}
+
+img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.line {
+    height: 2px;
+    border: width 20px;;
+    color:rebeccapurple;
+    background-color:rebeccapurple;
+    margin-top: 40px;
+
+}
