@@ -1,0 +1,32 @@
+.div1{
+    border: 3px solid black;
+    padding: 90px;
+    margin: 90px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.img1 {
+    float:left;
+}
+
+.img2 {
+    float:right;
+}
+
+
+.p1 {
+    clear:left;
+}
+
+.p2 {
+    clear:right;
+}
