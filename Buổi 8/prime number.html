@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime number</title>
+</head>
+<body>
+    <script>
+        function prime(){
+        while (true){
+        var a = prompt("Nhập 1 số nguyên bất kì: ");
+        if (a == "del"){
+            window.alert("Shutting down...")
+            break
+        }
+        var a = parseInt(a);
+        let so_du = []
+        if (a <= 0) {
+            window.alert("xin hãy nhập 1 số nguyên dương khác 0")
+        }
+        else if (a >= 1) {
+        for (let i = 1; i <= a; i++) {
+            if (a % i === 0) {
+                so_du.push(i)
+            }
+        }
+        if (so_du.length == 2) {
+            window.alert("là số nguyên tố")
+        }
+        else if (so_du.length != 2) {
+            window.alert("không phải số nguyên tố")
+        }
+        }
+    
+        }
+    }
+    </script>
+        
+    <button onclick="prime()">Start</button>
+
+</body>
+</html>
