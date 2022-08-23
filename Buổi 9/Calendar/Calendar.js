@@ -1,7 +1,3 @@
-// - Xây dựng hệ thống yêu cầu người dùng nhập vào ngày tháng năm rồi in ra ngày tháng năm kế tiếp
-let prompt = require("prompt-sync")({ sigint: true })
-
-
 function calendar() {
 
     let long = [1, 3, 5, 7, 8, 10, 12];
