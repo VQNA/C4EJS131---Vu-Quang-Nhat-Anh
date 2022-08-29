@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "/thực hành 11.js"></script> 
+
+</head>
+<body>
+    <button id = "button" onclick = changecolor() >Like</button>
+    <script>
+        let elem = document.getElementById("button")
+
+        function changecolor(){
+            if (elem.innerHTML =="Like"){
+            elem.style.backgroundColor="blue";
+            elem.style.color="white";
+            elem.innerHTML="Liked";
+            
+        }   
+            else if (elem.innerHTML =="Liked"){
+            elem.style.backgroundColor="white";
+            elem.style.color="blue";
+            elem.innerHTML="Like";
+            }
+            else{
+                return false
+            }
+        }
+        elem.onclick = changecolor
+    </script>
+</body>
+</html>

@@ -1,13 +1,11 @@
-const prompt = require("prompt-sync")({ sigint: true })
+const todoList = ["Homework", "Jogging", "Shopping"]
 
-let student = {
-    firstname: "John",
-    age:18,
+const ul = document.createElement("ul")
+
+for (let i = 0; i < todoList.length; i++) {
+	const li = document.createElement("li")
+	li.innerHTML = todoList[i]
+	ul.appendChild(li)
 }
 
-console.log(student)
-
-
-let {firstname, age} = student
-
-console.log(student)
+document.appendChild(ul)

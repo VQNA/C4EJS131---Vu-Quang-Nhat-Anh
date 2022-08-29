@@ -8,12 +8,16 @@ var user = {
         weight:68
     }
 }
-function keycall(a){
-    for(let key in a){
-        console.log(key)
-        
-        if (key == "appearance"){
-        keycall(a[key])}
+function keycall(object, result = []){
+    let keys = result;
+    for(let key in object){
+        keys.push(key)
+        if (typeof object[key] === 'object'){
+            keycall(object[key], keys)
+        }
+       
+        }
+        return(keys)
     }
-}
-keycall(user)
+
+console.log('keys:', keycall(user))
