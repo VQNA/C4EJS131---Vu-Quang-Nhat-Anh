@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="./btvn12.css">
+</head>
+<body>
+    <div id="header" class ="header">
+        <h1>Reading list</h1>
+        <h2>Reading list in 2022</h2>
+        <input type = 'text' id = "search_book" placeholder = "Search books..." onkeyup="search()" >
+    </div>
+
+    <div id = "book-list" class = "book_list">
+        <h2 class = "title">Books to Read</h2>
+        <ul id = "list_book">
+            <li>
+                <span class ="name">Lập trình web căn bản</span>
+                <button class ="delete">Delete</button>
+            </li>
+            <li>
+                <span class ="name">Lập trình Fullstack Web</span>
+                <button class ="delete">Delete</button>
+            </li>
+            <li>
+                <span class ="name">Lập trình Mobile App</span>
+                <button class ="delete">Delete</button>
+            </li>
+            <li>
+                <span class ="name">Lập trình Nodejs</span>
+                <button class ="delete">Delete</button>
+            </li>
+        </ul>
+    </div>
+
+    <form id="add-book" class = "search">
+    <input type = 'text' placeholder="Add a book..." />
+    <button class = "submit_button">Submit</button>
+    </form>
+    <script src="./btvn12.js"></script>
+</body>
+</html>
