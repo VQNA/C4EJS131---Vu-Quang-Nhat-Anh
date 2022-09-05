@@ -1,4 +1,4 @@
-
+// const prompt = require("prompt-sync")({ sigint: true})
 //tìm số chẵn trong array
 // let array = [2, 5, 29, 48, 55];
 // for (var i = 0; i < array.length; i++){
@@ -17,9 +17,9 @@
 // }
 
 //cho 3 số a,b,c là 3 số trong pt bậc hai ax2 + bx + c = 0, tìm nghiệm của phương trình:
-var a = 1;
-var b = 2;
-var c = 1;
+let a = parseInt(prompt("> first number"));
+let b = parseInt(prompt("> second number"));
+let c = parseInt(prompt("> third number"));
 let x = [];
 let delta = b**2 - 4*a*c;
 if (delta == 0){

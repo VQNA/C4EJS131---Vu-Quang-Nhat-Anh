@@ -1,4 +1,3 @@
-const prompt = require("prompt-sync")({ sigint: true })
 while (true){
 var a = prompt("Nhập 1 số nguyên bất kì: ");
 if (a == "del"){
