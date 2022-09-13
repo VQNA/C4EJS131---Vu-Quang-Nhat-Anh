@@ -9,5 +9,5 @@ for (let i = 1; i <= number; i++){
 }
 console.log(pyramid)
 }
-numberOneTriangle(4)
+numberOneTriangle(7)
 
