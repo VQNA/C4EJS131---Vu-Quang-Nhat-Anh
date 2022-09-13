@@ -1,5 +1,3 @@
-const prompt = require("prompt-sync")({ sigint: true})
-
 const first_number = parseInt(prompt('Enter first number: '));
 const second_number = parseInt(prompt('Enter second number: '));
 let prime_number = [];
